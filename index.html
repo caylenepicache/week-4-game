@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <title>Infinity Stones Collector</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Patua+One" rel="stylesheet">
+
+
+</head>
+
+
+<body>
+
+<div class="header">
+<img src = "assets/images/infinitystonesbanner.jpg">
+You will be given a random number at the start of the game.
+<br>
+There are four infinty stones on the right. By clicking on each stone, you will add a specific amount of points to your total score.
+<br>
+You win the game by matching your total score to random number, you lose the game if your total score goes above the random number.
+<br>
+The value of each crystal is hidden from you until you click on it.
+<br>
+Each time when the game starts, the game will change the values of each crystal.
+</div>
+
+<div class="container">
+<div class="leftCol">
+
+    <h1>Number to Guess: <span id="number-to-guess"></span></h1>
+
+    <h1><span id="result"></span></h1>
+    <h1> Wins: <span id="winScore"></span></h1>
+    <h1> Loss: <span id="lossScore"></span></h1>
+    <h1> Your Points:  <span id="userPoints"></span></h1>
+
+</div>
+
+<div class="rightCol">
+
+<div id="displayCrystals">
+    <img id="displayCrysOne" src="assets/images/gemone.jpg">
+    <img id="displayCrysTwo" src="assets/images/gemtwo.jpg">
+    <img id="displayCrysThree" src="assets/images/gemthree.jpg">
+    <img id="displayCrysFour" src="assets/images/gemfour.jpg">
+</div>
+    
+</div>
+</div>
+
+
+
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,186 @@
+body {
+    margin-left: 10%;
+    margin-right: 10%;
+    background-image: url("../images/tileable-classic-nebula-space-patterns-6.jpg");
+    background-position: fixed;
+    background-repeat: repeat;
+    
+}
+
+.header {
+    margin-left: 10%;
+    margin-right: 10%;
+    color: #fff;
+    text-align: center;
+    font-family: 'Patua One', cursive;
+    font-size: 16px;
+}
+
+.leftCol, .rightCol {
+    border: 3px #fff solid;
+    width: 580px;
+    height: 545px;
+    float: left;
+    color: #fff;
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.leftCol {
+    margin-right: 10px;
+    margin-left: 8%;
+    width: 470px;
+}
+
+img {
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+}
+
+#displayCrysOne:hover,
+#displayCrysTwo:hover,
+#displayCrysThree:hover,
+#displayCrysFour:hover
+ {
+    opacity: 0.75;
+}
+
+#result {
+    color: #FFD700;
+    font-size: 50px;
+}
+
+h1 {
+    padding: 5px;
+    font-size: 45px;
+}
+
+
+@media only screen and (max-width: 980px) {
+
+body {
+    margin-left: 2%;
+    margin-right: 2%;
+    
+}
+
+.header {
+    font-size: 14px;
+}
+
+.leftCol {
+    width: 350px;
+}
+
+.rightCol {
+    width: 414px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#result {
+    font-size: 35px;
+}
+
+#displayCrysOne,
+#displayCrysTwo,
+#displayCrysThree,
+#displayCrysFour
+ {
+    width: 41%;
+}
+
+}
+
+@media only screen and (max-width: 768px) {
+
+body {
+    margin-left: 0%;
+    margin-right: 0%;
+    
+}
+
+.header {
+    font-size: 14px;
+}
+
+.leftCol {
+    width: 304px;
+}
+
+.rightCol {
+    width: 325px;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+#result {
+    font-size: 35px;
+}
+
+#displayCrysOne,
+#displayCrysTwo,
+#displayCrysThree,
+#displayCrysFour
+    {
+    width: 43%;
+    padding: 2px;
+}
+
+}
+
+@media only screen and (max-width: 640px) {
+
+body {
+    margin-left: 0%;
+    margin-right: 0%;
+    
+}
+
+.header {
+    font-size: 14px;
+}
+
+.leftCol {
+    width: 250px;
+}
+
+.rightCol {
+    width: 285px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 25px;
+}
+
+#result {
+    font-size: 22px;
+}
+
+#displayCrysOne,
+#displayCrysTwo,
+#displayCrysThree,
+#displayCrysFour
+    {
+    width: 43%;
+    padding: 2px;
+}
+
+}
